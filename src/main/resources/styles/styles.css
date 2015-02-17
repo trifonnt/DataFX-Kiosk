@@ -1,0 +1,178 @@
+@CHARSET "ISO-8859-1";
+
+
+.text-box {
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+    -fx-font-family: Berlin Sans FB Demi;
+}
+
+#bg {
+	-fx-background-image: url("../images/bg.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+
+
+#home {
+	-fx-background-image: url("../images/bg1.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+#btnOne {
+	-fx-background-image: url("../images/buy-button.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+	-fx-cursor: hand;
+}
+
+#btnTwo {
+	-fx-background-image: url("../images/collect-button.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+	-fx-cursor: hand;
+}
+
+
+#buyTickets {
+	-fx-background-image: url("../images/box.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+#btnPurchase {
+	-fx-background-image: url("../images/btnPurchase.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+	-fx-cursor: hand;
+}
+
+
+#cashView {
+	-fx-background-image: url("../images/cashView.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+#btnProcess {
+	-fx-background-image: url("../images/btnProcess.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+	-fx-cursor: hand;
+}
+
+#btnCancel {
+	-fx-background-image: url("../images/btnCancel.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+	-fx-cursor: hand;
+}
+
+#printView {
+	-fx-background-image: url("../images/printView.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+#btnPrint {
+	-fx-background-image: url("../images/btnPrint.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+	-fx-cursor: hand;
+}
+
+
+#transactionView {
+	-fx-background-image: url("../images/transactionView.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+#collectTicketHome {
+	-fx-background-image: url("../images/collectTicketHome.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+#btnPrintTickets {
+	-fx-background-image: url("../images/btnPrintTickets.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+#successView {
+	-fx-background-image: url("../images/successView.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+#unsuccessView {
+	-fx-background-image: url("../images/unsuccessView.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+#btnRetry {
+	-fx-background-image: url("../images/btnRetry.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+	-fx-cursor: hand;
+}
+
+
+.list-view {
+	-fx-font-size: 12pt;
+	-fx-font-weight: bold;
+	-fx-font-family: Berlin Sans FB Demi;
+}
+
+.logoPane {
+	-fx-background-image: url("../images/GVlogo.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+.lblImage {
+	-fx-background-image: url("../images/geturticket.png");
+	-fx-background-size: 100% 100%;
+}
+
+.contentPane {
+	-fx-background-image: url("../images/bluebox.png");
+	-fx-background-position: center center;
+	-fx-background-size: 100% 100%;
+}
+
+.buy-button {
+	-fx-background-image: url("../images/buy-button.png");
+	-fx-background-position: center center;
+	-fx-background-size: 100% 100%;
+	-fx-cursor: hand;
+}
+
+.collect-button {
+	-fx-background-image: url("../images/collect-button.png");
+	-fx-background-position: center center;
+	-fx-background-size: 100% 100%;
+	-fx-cursor: hand;
+}
+
+/* .list-cell:filled:selected:focused,.list-cell:filled:selected {
+	3:, 4:
+	-fx-background-color: linear-gradient(#eee 0%, #777 25%, #aaa 75%, #eee 100%);
+	-fx-text-fill: white; 5
+} */
+.list-cell{
+	-fx-alignment: CENTER-RIGHT;
+	 -fx-padding: 3 3 3 3;
+	-fx-padding: 0.166667em; /* 2px, plus border adds 1px */
+}
+.list-cell:odd {
+	-fx-background-color: #29ABE2; /* 1 */
+}
+
+.list-cell:even {
+	-fx-background-color: #7FCDEE; /* for information */
+}

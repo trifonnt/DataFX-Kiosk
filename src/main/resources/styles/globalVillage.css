@@ -1,0 +1,287 @@
+
+.virtual-keyboard{
+	/* -fx-border-color: darkblue; 
+	-fx-border-radius: 5; */
+}
+
+.virtual-keyboardPane{
+	-fx-background-color: white;
+	-fx-border-color: darkblue; 
+	-fx-border-radius: 5;
+}
+
+.virtual-keyboard-button{
+	-fx-border-radius: 08;
+	-fx-fill: #0083cc;
+	-fx-font-size: 15;
+	-fx-border-color: #0083cc;
+	-fx-background-color: white;
+}
+.text-field {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-font-family: Berlin Sans FB Demi;
+}
+.button {
+	-fx-cursor: hand;
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+#btnHome{
+	-fx-background-image: url("../img/returnscreen.png");
+	-fx-background-color:transparent;
+}
+.loginPanel {
+	-fx-background-image: url("../img/loginBox.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+#adminParent {
+	-fx-background-image: url("../img/bg.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+.mainParent {
+	-fx-background-image: url("../img/bg.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+.logoPane {
+	-fx-background-image: url("../img/GVlogo.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+.buyTicketPane {
+	-fx-background-image: url("../img/buyTicketPane.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+.collectTicketPane {
+	-fx-background-image: url("../img/collectTicketPane.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+.buyTicketPaneWithTickets {
+	-fx-background-image: url("../img/buyTicketPaneWithTickets.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+#home {
+	-fx-background-image: url("../img/blueBG.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-position: center center;
+}
+
+#btnBuy {
+	-fx-background-image: url("../img/btnBuy.png");
+}
+
+#btnCollect {
+	-fx-background-image: url("../img/btnCollect.png");
+}
+
+#btnPrint {
+	-fx-background-image: url("../img/btnPrint.png");
+}
+
+.subParent-transparent {
+	-fx-background: transparent;
+}
+
+#btnPurchase {
+	-fx-background-image: url("../img/btnPurchase.png");
+}
+
+#btnRetry {
+	-fx-background-image: url("../img/btnRetry.png");
+}
+
+#btnLogin {
+	-fx-background-image: url("../img/btnLogin.png");
+}
+
+.btnWhitePaneWithRedLabel {
+	-fx-background-color: white;
+	-fx-fill: red;
+}
+
+.size30 {
+	-fx-fill: BLACK;
+	-fx-font-size: 34;
+	-fx-border-color: #0083cc;
+	-fx-background-color: transparent;
+}
+
+.text-field {
+	-fx-border-color: #0083cc;
+	-fx-fill: BLACK;
+	-fx-font-size: 22;
+	-fx-background-color: white;
+}
+
+.btnProceed {
+	-fx-background-image: url("../img/btnProceed.png");
+}
+
+.btnCancel {
+	-fx-background-image: url("../img/btnCancel.png");
+}
+
+#oddPane {
+	-fx-background-color: #29ABE2;
+}
+
+#evenPane {
+	-fx-background-color: #7FCDEE;
+}
+
+#oddPane {
+	-fx-background-color: #29ABE2;
+}
+
+#evenPane {
+	-fx-background-color: #7FCDEE;
+}
+
+.table-view.cell:odd {
+	-fx-background-color: #29ABE2;
+	-fx-table-cell-border-color: BLACK;
+	-fx-font-size: 14px;
+}
+
+.table-view.cell:even {
+	-fx-background-color: #7FCDEE;
+	-fx-table-cell-border-color: BLACK;
+	-fx-font-size: 14px;
+}
+
+.table-view.cell:empty {
+	-fx-background-color: white;
+	-fx-border-color: WHITE;
+}
+
+.btnDarkBlue{
+	-fx-background-color: #094A8E;
+}
+
+.greenPane {
+	-fx-background-color: #00AA4E;
+}
+
+.redPane {
+	-fx-background-color: #D7182A;
+}
+
+.orangePane {
+	-fx-background-color: #F7931E;
+}
+
+.whitePane {
+	-fx-background-color: white;
+}
+
+.veryLightBluePane {
+	-fx-background-color: #DAECF8;
+	-fx-border-color: #33A9E1;
+}
+
+.veryDarkBluePane {
+	-fx-background-color: #004A93;
+}
+
+.lightBluePane {
+	-fx-background-color: #A2D4ED;
+}
+
+.lightBlueWithAshPane {
+	-fx-background-color: #CCDBE8;
+}
+
+.mediumDarkBluePane {
+	-fx-background-color: #5FB9E5;
+	-fx-border-color: #33A9E1;
+}
+
+.whiteWithBlueBorderPane {
+	-fx-background-color: white;
+	-fx-border-color: #33A9E1;
+}
+
+.menu-bar {
+	-fx-background-color: #0183cc;
+}
+
+.menu-bar .label {
+	-fx-font-size: 20;
+	-fx-font-family: "Calibri";
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	/* -fx-background-color: white */
+}
+
+.menu-item .label {
+	-fx-font-family: "Calibri";
+	-fx-font-size: 20;
+	-fx-text-fill: #0083cc;
+	-fx-background-color: white;
+}
+
+.menu-item:focused .label {
+	-fx-font-family: "Calibri";
+	-fx-font-size: 20;
+	-fx-text-fill: white;
+	-fx-background-color: #0083cc;
+}
+
+.table-view{
+	-fx-border-color: WHITE;
+}
+
+.table-view:selected{
+	-fx-border-color: WHITE;
+}
+
+.table-row-cell:odd {
+	-fx-background-color:#ddf3ff;
+	 -fx-table-cell-border-color: WHITE;
+	-fx-font-size: 14px;	
+}
+
+.table-row-cell:even {
+	-fx-background-color:white;	
+	-fx-table-cell-border-color: WHITE;
+	-fx-font-size: 14px;
+}
+
+.table-row-cell:empty {
+	-fx-background-color:white;	
+	 -fx-border-color: WHITE;
+}
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;    
+}
+.table-row-cell:hover{
+	-fx-background-color: #CCDBE8;	
+	-fx-cursor: hand;
+	-fx-font-size: 15px;
+}
+.table-row-cell:selected{
+	-fx-background-color: #29ABE2;
+	-fx-text-fill:black;
+	-fx-font-size: 15px;
+		
+}
+.table-view .column-header{
+	 -fx-background-color: #c5ebff;
+	 -fx-font-family: "Calibri";
+	 -fx-text-fill: #004A93;
+	-fx-font-size: 16;
+	 -fx-border-color: WHITE;
+}

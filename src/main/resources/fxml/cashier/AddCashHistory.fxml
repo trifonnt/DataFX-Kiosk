@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:id="content" alignment="CENTER" maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.aitrich.kiosk.controllers.cashier.AddCashHistoryController">
+  <children>
+    <GridPane alignment="CENTER" styleClass="veryDarkBluePane" GridPane.columnIndex="0" GridPane.rowIndex="0">
+      <children>
+        <Label minHeight="20.0" prefHeight="22.0" text="Add Cash History" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="0">
+          <font>
+            <Font name="Calibri Bold" size="22.0" />
+          </font>
+        </Label>
+        <GridPane id="GridPane" alignment="CENTER" prefHeight="519.0" GridPane.columnIndex="0" GridPane.rowIndex="1">
+          <children>
+            <!-- <HBox id="HBox" alignment="CENTER_LEFT" spacing="5.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+              <children>
+                <TextField fx:id="txtTransNo" minWidth="-Infinity" onKeyReleased="#onTransNoReleased" prefWidth="-1.0" promptText="Transaction No" />
+                <Button fx:id="btnSearch" disable="true" mnemonicParsing="false" onAction="#onSearchClick" prefHeight="38.0" prefWidth="71.0" text="Search" />
+              </children>
+            </HBox> -->
+            <TableView id="duplicateTbl" fx:id="addcashMasterTableView" maxHeight="-1.0" maxWidth="-1.0" prefHeight="471.0" prefWidth="-1.0" styleClass="cell" GridPane.columnIndex="0" GridPane.rowIndex="1">
+              <columns>
+                <TableColumn maxWidth="5000.0" minWidth="130.0" prefWidth="130.0" text="Date" fx:id="colDate1" />
+                <TableColumn maxWidth="5000.0" minWidth="100.0" prefWidth="99.0" text="Time" fx:id="colTime1" />
+                <TableColumn minWidth="120.0" prefWidth="75.0" text="Kiosk" fx:id="colKiosk1" />
+                <TableColumn maxWidth="5000.0" minWidth="150.0" prefWidth="90.0" text="User" fx:id="colUser1" />
+                <TableColumn minWidth="100.0" prefWidth="75.0" text="Action" fx:id="colAction1" />
+              </columns>
+              <stylesheets>
+                <URL value="@../../styles/globalVillage.css" />
+              </stylesheets>
+            </TableView>
+          </children>
+          <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="-1.0" />
+          </columnConstraints>
+          <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" />
+          </padding>
+          <rowConstraints>
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="-1.0" valignment="CENTER" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+      </children>
+      <columnConstraints>
+        <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="-1.0" prefWidth="-1.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="-1.0" minHeight="40.0" prefHeight="-1.0" vgrow="NEVER" />
+        <RowConstraints maxHeight="-1.0" minHeight="-1.0" prefHeight="-1.0" valignment="CENTER" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+  <columnConstraints>
+    <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="-1.0" prefWidth="-1.0" />
+  </columnConstraints>
+  <padding>
+    <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+  </padding>
+  <rowConstraints>
+    <RowConstraints minHeight="600.0" valignment="CENTER" vgrow="NEVER" />
+  </rowConstraints>
+  <stylesheets>
+    <URL value="@../../styles/globalVillage.css" />
+  </stylesheets>
+</GridPane>

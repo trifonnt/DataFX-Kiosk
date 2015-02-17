@@ -1,0 +1,25 @@
+
+.parent {
+-fx-background-color: #ececec, #a4e3fb;
+-fx-background-radius: 0 0 0 0;
+-fx-background-insets: 0, 20;
+-fx-border-color: navy, darkcyan; 
+-fx-border-width: 1;
+-fx-border-radius: 0 0 0 0;
+-fx-border-insets: 0, 20;
+
+}
+
+.heading {
+-fx-text-fill: #036184;
+-fx-font-size: 22;
+-fx-font-weight: bold;
+-fx-font-family: Berlin Sans FB Demi;
+}
+
+.desc {
+-fx-font-size: 20;
+-fx-font-weight: bold;
+-fx-font-family: Berlin Sans FB Demi;
+-fx-text-fill: #036184;
+}

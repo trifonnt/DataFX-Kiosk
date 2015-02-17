@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<GridPane id="" fx:id="root" alignment="CENTER" maxHeight="910.0" maxWidth="-1.0" minHeight="-1.0" minWidth="680.0" prefHeight="-1.0" prefWidth="-1.0" styleClass="mainParent" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <GridPane id="GridPane" alignment="CENTER" hgap="20.0" maxHeight="910.0" maxWidth="660.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+      <children>
+        <GridPane id="GridPane" alignment="CENTER" maxHeight="560.0" maxWidth="310.0" minHeight="560.0" minWidth="310.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+          <children>
+            <Pane fx:id="logoPng" maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" styleClass="logoPane" GridPane.columnIndex="0" GridPane.rowIndex="0">
+              <padding>
+                <Insets />
+              </padding>
+            </Pane>
+          </children>
+          <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="-1.0" />
+          </columnConstraints>
+          <padding>
+            <Insets bottom="20.0" />
+          </padding>
+          <rowConstraints>
+            <RowConstraints minHeight="-1.0" valignment="CENTER" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+        <GridPane id="GridPane" fx:id="rightContent" alignment="CENTER" maxHeight="560.0" maxWidth="420.0" minHeight="560.0" minWidth="420.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+      </children>
+      <columnConstraints>
+        <ColumnConstraints halignment="CENTER" hgrow="NEVER" minWidth="-1.0" percentWidth="45.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="NEVER" minWidth="420.0" percentWidth="60.0" prefWidth="420.0" />
+      </columnConstraints>
+      <padding>
+        <Insets />
+      </padding>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+  <columnConstraints>
+    <ColumnConstraints halignment="CENTER" hgrow="NEVER" minWidth="-1.0" prefWidth="-1.0" />
+  </columnConstraints>
+  <padding>
+    <Insets bottom="50.0" left="100.0" right="100.0" top="50.0" />
+  </padding>
+  <rowConstraints>
+    <RowConstraints minHeight="-1.0" prefHeight="-1.0" valignment="CENTER" vgrow="SOMETIMES" />
+  </rowConstraints>
+  <stylesheets>
+    <URL value="@../styles/globalVillage.css" />
+  </stylesheets>
+</GridPane>

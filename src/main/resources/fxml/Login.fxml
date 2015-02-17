@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane id="content" fx:id="loginPane" alignment="CENTER" maxHeight="-1.0" maxWidth="-1.0" minHeight="450.0" minWidth="680.0" prefHeight="-1.0" prefWidth="-1.0" styleClass="mainParent" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <GridPane alignment="CENTER" styleClass="loginPanel" GridPane.columnIndex="0" GridPane.rowIndex="0">
+      <children>
+        <GridPane alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0">
+          <children>
+            <GridPane alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0">
+              <children>
+                <HBox alignment="CENTER" prefHeight="-1.0" prefWidth="-1.0" styleClass="whitePane" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                  <children>
+                    <Label text="Kiosk Management System">
+                      <font>
+                        <Font name="Calibri" size="30.0" />
+                      </font>
+                    </Label>
+                  </children>
+                </HBox>
+                <GridPane id="GridPane" alignment="CENTER" styleClass="lightBluePane" vgap="20.0" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                  <children>
+                    <HBox alignment="CENTER" prefHeight="-1.0" prefWidth="-1.0" styleClass="mediumDarkBluePane" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                      <children>
+                        <GridPane alignment="CENTER" prefHeight="-1.0" prefWidth="-1.0">
+                          <children>
+                            <Label alignment="CENTER" prefHeight="32.0" prefWidth="102.0" text="User ID" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER">
+                              <font>
+                                <Font name="Calibri" size="26.0" fx:id="x1" />
+                              </font>
+                              <labelFor>
+                                <TextField fx:id="adminUserName" minHeight="40.0" prefWidth="-1.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                              </labelFor>
+                              <textFill>
+                                <Color blue="0.557" green="0.290" red="0.098" fx:id="x2" />
+                              </textFill>
+                              <GridPane.margin>
+                                <Insets left="16.0" top="8.0" />
+                              </GridPane.margin>
+                            </Label>
+                            <fx:reference source="adminUserName" />
+                          </children>
+                          <columnConstraints>
+                            <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="185.0" minWidth="10.0" prefWidth="136.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="292.0" minWidth="10.0" prefWidth="292.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="40.0" prefHeight="-1.0" valignment="CENTER" vgrow="NEVER" />
+                          </rowConstraints>
+                        </GridPane>
+                      </children>
+                    </HBox>
+                    <HBox alignment="CENTER" prefHeight="-1.0" prefWidth="-1.0" styleClass="mediumDarkBluePane" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                      <children>
+                        <GridPane alignment="CENTER" prefHeight="-1.0" prefWidth="-1.0">
+                          <children>
+                            <Label alignment="CENTER" font="$x1" text="Password" textFill="$x2" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER">
+                              <GridPane.margin>
+                                <Insets left="10.0" top="7.0" />
+                              </GridPane.margin>
+                            </Label>
+                            <PasswordField fx:id="adminPassword" alignment="CENTER_LEFT" minHeight="40.0" prefWidth="-1.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                          </children>
+                          <columnConstraints>
+                            <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="185.0" minWidth="10.0" prefWidth="136.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="298.0" minWidth="10.0" prefWidth="292.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="40.0" prefHeight="-1.0" vgrow="NEVER" />
+                          </rowConstraints>
+                        </GridPane>
+                      </children>
+                    </HBox>
+                    <Label fx:id="errUser" text="User ID &amp; Password cannot be blank" textFill="#cc0000" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                      <font>
+                        <Font name="Calibri" size="20.0" />
+                      </font>
+                      <GridPane.margin>
+                        <Insets bottom="10.0" fx:id="x3" />
+                      </GridPane.margin>
+                    </Label>
+                  </children>
+                  <columnConstraints>
+                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="-1.0" />
+                  </columnConstraints>
+                  <padding>
+                    <Insets left="100.0" right="100.0" top="20.0" />
+                  </padding>
+                  <rowConstraints>
+                    <RowConstraints minHeight="40.0" valignment="CENTER" vgrow="NEVER" />
+                    <RowConstraints minHeight="40.0" valignment="CENTER" vgrow="NEVER" />
+                    <RowConstraints minHeight="20.0" valignment="CENTER" vgrow="NEVER" />
+                  </rowConstraints>
+                </GridPane>
+              </children>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="-1.0" prefWidth="-1.0" />
+              </columnConstraints>
+              <padding>
+                <Insets left="25.0" right="25.0" top="100.0" />
+              </padding>
+              <rowConstraints>
+                <RowConstraints maxHeight="-1.0" minHeight="65.0" prefHeight="-1.0" valignment="CENTER" vgrow="NEVER" />
+                <RowConstraints maxHeight="-1.0" minHeight="-1.0" prefHeight="-1.0" valignment="CENTER" vgrow="NEVER" />
+              </rowConstraints>
+            </GridPane>
+            <Button fx:id="btnLogin" maxHeight="40.0" maxWidth="200.0" mnemonicParsing="false" text="" GridPane.columnIndex="0" GridPane.margin="$x3" GridPane.rowIndex="1" />
+          </children>
+          <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="-1.0" prefWidth="-1.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints maxHeight="-1.0" minHeight="345.0" prefHeight="-1.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="-1.0" minHeight="80.0" prefHeight="-1.0" valignment="CENTER" vgrow="NEVER" />
+          </rowConstraints>
+        </GridPane>
+      </children>
+      <columnConstraints>
+        <ColumnConstraints halignment="CENTER" hgrow="NEVER" minWidth="680.0" prefWidth="-1.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="-1.0" minHeight="450.0" prefHeight="-1.0" valignment="CENTER" vgrow="NEVER" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+  <columnConstraints>
+    <ColumnConstraints halignment="CENTER" hgrow="NEVER" minWidth="680.0" prefWidth="-1.0" />
+  </columnConstraints>
+  <padding>
+    <Insets bottom="50.0" left="100.0" right="100.0" top="50.0" />
+  </padding>
+  <rowConstraints>
+    <RowConstraints minHeight="450.0" prefHeight="-1.0" valignment="CENTER" vgrow="NEVER" />
+  </rowConstraints>
+  <stylesheets>
+    <URL value="@../styles/globalVillage.css" />
+  </stylesheets>
+</GridPane>
