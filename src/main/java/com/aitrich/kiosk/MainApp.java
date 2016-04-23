@@ -7,6 +7,7 @@ import io.datafx.controller.flow.Flow;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
+@SuppressWarnings("unused")
 public class MainApp extends Application {
 
 	public static void main(String[] args) {
