@@ -1,26 +1,25 @@
-package com.aitrich.kiosk;
-
-
+package com.aitrich.kiosk.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import io.datafx.controller.FXMLController;
+import io.datafx.controller.ViewController;
 import io.datafx.controller.flow.action.ActionMethod;
 import io.datafx.controller.flow.action.ActionTrigger;
 
-@FXMLController("/fxml/SubRoot.fxml")
+
+@ViewController("/fxml/SubRoot.fxml")
 public class SubRootController {
-	
+
 	@FXML
 	@ActionTrigger("buy")
 	private Button btnBuy;
-	
+
 	@FXML
 	@ActionTrigger("collect")
 	private Button btnCollect;
 
 	@ActionMethod("buy")
-	public void onBuyTicketsClicked(){
+	public void onBuyTicketsClicked() {
 		System.out.println("*********");
 	}
 }

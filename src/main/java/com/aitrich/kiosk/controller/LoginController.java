@@ -1,4 +1,4 @@
-package com.aitrich.kiosk;
+package com.aitrich.kiosk.controller;
 
 import java.io.IOException;
 
@@ -11,11 +11,11 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
-import io.datafx.controller.FXMLController;
+import io.datafx.controller.ViewController;
 import io.datafx.controller.flow.action.ActionMethod;
 import io.datafx.controller.flow.action.ActionTrigger;
 
-@FXMLController("/fxml/Login.fxml")
+@ViewController("/fxml/Login.fxml")
 public class LoginController {
 	@FXML
 	private GridPane loginPane;
@@ -28,10 +28,10 @@ public class LoginController {
 	@FXML
 	@ActionTrigger("loginClick")
 	private Button btnLogin;
-	
+
 	@PostConstruct
 	public void init(){
-		
+
 	}
 
 	@ActionMethod("loginClick")
